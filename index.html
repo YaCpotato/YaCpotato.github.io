@@ -6,24 +6,26 @@
     </head>
     <body>
         <div id="app">
-            <vs-button>Hello World</vs-button>
+            <vs-button color="primary">Hello World</vs-button>
         </div>
       
         <script src="https://unpkg.com/vue/dist/vue.js"></script>
         <script src="https://unpkg.com/vuesax@4.0.1-alpha.16/dist/vuesax.min.js"></script>
         <script>
+            Vue.use(Vuesax, {
+                theme:{
+                    colors:{
+                    primary:'#5b3cc4',
+                    success:'rgb(23, 201, 100)',
+                    danger:'rgb(242, 19, 93)',
+                    warning:'rgb(255, 130, 0)',
+                    dark:'rgb(36, 33, 69)'
+                    }
+                }
+            })
             new Vue({
               el: '#app'
             })
         </script>
-        <style>
-            :root {
-                --vs-primary: 91, 60, 196
-                --vs-success: 23, 201, 100
-                --vs-danger: 242, 19, 93
-                --vs-warn: 254, 130, 0
-                --vs-dark: 36, 33, 69
-            }
-        </style>
     </body>
 </html>
