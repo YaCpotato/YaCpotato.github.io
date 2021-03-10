@@ -6,8 +6,8 @@
     </head>
     <body>
         <div id="app">
-            <vs-button color="primary">Hello World</vs-button>
-            <vs-button color="success">Hello World</vs-button>
+            <vs-button color="my_blue">Hello World</vs-button>
+            <vs-button color="my_yellow">Hello World</vs-button>
         </div>
       
         <script src="https://unpkg.com/vue/dist/vue.js"></script>
@@ -15,11 +15,8 @@
         <script>
             Vue.use(Vuesax, {
                 colors: {
-                primary:'#FFFFFF',
-                success:'rgb(23, 201, 100)',
-                danger:'rgb(242, 19, 93)',
-                warning:'rgb(255, 130, 0)',
-                dark:'rgb(36, 33, 69)'
+                    my_blue:'#295ea4',
+                    my_yellow:'#ffcb4f'
                 }
             })
             new Vue({
