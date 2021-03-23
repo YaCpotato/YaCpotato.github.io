@@ -1,8 +1,5 @@
-<header style="width:100%;height:100px;margin-top:0;background-color:#295ea4;">
-  ヘッダーを上部に固定
-</header>
-primary:'#295ea4',
-success:'#ffcb4f',
+<!--primary:'#295ea4',
+success:'#ffcb4f',-->
 <div align="center">
 <img src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" alt="profile-image" title="profile-image" style="width:20vw;height:auto;border-radius: 50%;">
 </div>
