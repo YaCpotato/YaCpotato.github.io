@@ -1,4 +1,4 @@
-### Hi there, I'm Shoichi Yashiro 👋
+# Welcome to my page
 ![Yasshi's github stats](https://github-readme-stats.vercel.app/api?username=YaCpotato&theme=algolia&show_icons=true)
 
 [Check out my zenn!](https://zenn.dev/yassh_i)
@@ -54,10 +54,17 @@
 <br />
 
 ---
+### Analysis Scraps
+- [Analyzing Airbnb Data in NewYork](https://zenn.dev/yassh_i/scraps/f99608c656af3b)
+- [2012年～2019年までのPOS小売販売の推移](https://public.tableau.com/profile/yasshieeee#!/vizhome/1_15959457613200/sheet16)
+<div class='tableauPlaceholder' id='viz1616505968793' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;C2&#47;C2FBX45SK&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;C2FBX45SK' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;C2&#47;C2FBX45SK&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ja' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1616505968793');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 ### 📕 Epic Blog Posts
 <!-- BLOG-POST-LIST:START -->
 - [Twitter API with Python](https://yasshieeee.hatenablog.com/entry/2020/05/07/164010?_ga=2.201294186.592220747.1597242419-673425823.1561356622)
+- [EC2でHadoop環境構築できなかった話](https://zenn.dev/yassh_i/articles/6c5cab552c3b49/)
+- [Hadoop環境できた -2回目の挑戦- ラズパイ4で](https://zenn.dev/yassh_i/articles/33d00fb94e7adb/)
+- [ラズパイでHadoopの疑似分散モードを試してみる](https://zenn.dev/yassh_i/articles/d062a59053324a/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
