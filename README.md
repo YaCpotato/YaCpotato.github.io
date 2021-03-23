@@ -1,4 +1,7 @@
-# Welcome to my page
+<div align="center">
+<img src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" alt="profile-image" title="profile-image">
+</div>
+<hr>
 ![Yasshi's github stats](https://github-readme-stats.vercel.app/api?username=YaCpotato&show_icons=true)
 ![Top Languages Card (Compact layout)](https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact)
 
