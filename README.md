@@ -1,4 +1,4 @@
-<header style="position: fixed;width: 100%;height: 200px;background-color: #295ea4;">
+<header style="width:100%;height:100px;margin-top:0;background-color:#295ea4;">
   ヘッダーを上部に固定
 </header>
 primary:'#295ea4',
