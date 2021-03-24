@@ -1,49 +1,40 @@
 <!--primary:'#295ea4',
 success:'#ffcb4f',-->
+<img align="left" src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" style="width:20vw;height:auto;border-radius: 50%;"/>
+![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=YaCpotato&show_icons=true)
+![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact)
 
-<div style="width=100%">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" style="width:20vw;height:auto;border-radius: 50%;"/>
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&show_icons=true" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact" />
-  </a>
-</div>
-<div>
-  <hr>
+<hr>
 
-  ### Pinned Repositories
+### Pinned Repositories
 
-  ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view)
+![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view)
 
-  ### Description
-  Preview CSV Dataset with interactive visualization with Dash.<br>
-  <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
+### Description
+Preview CSV Dataset with interactive visualization with Dash.<br>
+<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
 
-  ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--)
+![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--)
 
-  ### Description
-  My Athena query snippet.<br>
-  <img align="left" alt="AWS" width="26px" src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png" />
-  <img align="left" alt="Presto" width="26px" src="https://user-images.githubusercontent.com/47899653/112152062-3a9d5480-8c25-11eb-8b62-cceecd56edc1.png" />
+### Description
+My Athena query snippet.<br>
+<img align="left" alt="AWS" width="26px" src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png" />
+<img align="left" alt="Presto" width="26px" src="https://user-images.githubusercontent.com/47899653/112152062-3a9d5480-8c25-11eb-8b62-cceecd56edc1.png" />
 
-  ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery)
+![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery)
 
-  ### Description
-  My BigQuery query snippet.<br>
-  ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart)
+### Description
+My BigQuery query snippet.<br>
+![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart)
 
-  ### Description
-  Try to make GanntChartApp with full scratch.<br>
-  <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-  <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-  <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+### Description
+Try to make GanntChartApp with full scratch.<br>
+<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
-  [Check out my zenn!](https://zenn.dev/yassh_i)
-</div>
+[Check out my zenn!](https://zenn.dev/yassh_i)
+
 
 ## Data Engineer, Analyst
 - I’m currently working on a [Members Co.,Ltd. Data adventure company](https://www.dataadventure.co.jp/)!
