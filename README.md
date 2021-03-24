@@ -7,6 +7,11 @@ success:'#ffcb4f',-->
 
 <hr>
 
+## Data Engineer, Analyst
+- I’m currently working on a [Members Co.,Ltd. Data adventure company](https://www.dataadventure.co.jp/)!
+- I’m looking to collaborate with other analysts, engineers!
+- Fun fact: I love to draw and play guitar / bass
+
 ## Pinned Repositories
 
 ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view)
@@ -34,11 +39,6 @@ Try to make GanntChartApp with full scratch.<br>
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /><br>
 <hr>
-
-## Data Engineer, Analyst
-- I’m currently working on a [Members Co.,Ltd. Data adventure company](https://www.dataadventure.co.jp/)!
-- I’m looking to collaborate with other analysts, engineers!
-- Fun fact: I love to draw and play guitar / bass
 
 ### Other Languages and Tools:
 
