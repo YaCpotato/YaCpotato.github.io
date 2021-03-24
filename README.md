@@ -1,6 +1,7 @@
 <!--primary:'#295ea4',
 success:'#ffcb4f',-->
-<img align="left" src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" style="width:20vw;height:auto;border-radius: 50%;"/>
+<img align="left" src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" style="width:20vw;height:auto;border-radius: 50%;" />
+
 ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=YaCpotato&show_icons=true)
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact)
 
