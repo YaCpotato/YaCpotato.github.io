@@ -4,7 +4,7 @@ success:'#ffcb4f',-->
 <div align="right" style="padding:8px;">
   <h2>Data Engineer, Analyst</h2>
   <ul>
-    <li>- Current work <a href="https://www.dataadventure.co.jp/">Members Co.,Ltd. Data adventure company</a>
+    <li>Current work <a href="https://www.dataadventure.co.jp/">Members Co.,Ltd. Data adventure company</a>
 </li>
     <li>I’m looking to collaborate with other analysts, engineers!</li>
     <li>Fun fact: I love to draw and play guitar / bass</li>
