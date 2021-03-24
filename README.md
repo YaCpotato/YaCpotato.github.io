@@ -1,7 +1,7 @@
 <!--primary:'#295ea4',
 success:'#ffcb4f',-->
-<img align="left" src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" style="width:20vw;height:auto;border-radius: 50%;" />
-<div align="left" style="padding:8px;">
+<img align="left" src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" style="width:15vw;height:auto;border-radius: 50%;margin:4px;" />
+<div align="left" style="padding:4px;">
   <h2>Data Engineer, Analyst</h2>
   <ul>
     <li>Current work <a href="https://www.dataadventure.co.jp/">Members Co.,Ltd. Data adventure company</a>
