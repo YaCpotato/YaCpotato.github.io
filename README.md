@@ -21,12 +21,13 @@ My Athena query snippet.<br>
 <img align="left" alt="AWS" width="26px" src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png" />
 <img align="left" alt="Presto" width="26px" src="https://user-images.githubusercontent.com/47899653/112152062-3a9d5480-8c25-11eb-8b62-cceecd56edc1.png" /><br>
 <hr>
+
 ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery)
 #### Description
 My BigQuery query snippet.<br>
+<hr>
 
 ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart)
-<hr>
 #### Description
 Try to make GanntChartApp with full scratch.<br>
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
