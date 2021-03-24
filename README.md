@@ -1,12 +1,19 @@
 <!--primary:'#295ea4',
 success:'#ffcb4f',-->
 <div align="center">
-<img src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" alt="profile-image" title="profile-image" style="width:10vw;height:auto;border-radius: 50%;">
+<img src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" alt="profile-image" title="profile-image" style="width:30vw;height:auto;border-radius: 50%;">
 </div>
 <hr>
 
 ![Yasshi's github stats](https://github-readme-stats.vercel.app/api?username=YaCpotato&show_icons=true)
 ![Top Languages Card (Compact layout)](https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact)
+
+## Pinned Repositories
+![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view)
+![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--)
+![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery)
+![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart)
+
 
 [Check out my zenn!](https://zenn.dev/yassh_i)
 
