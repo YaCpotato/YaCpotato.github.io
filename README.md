@@ -1,10 +1,7 @@
 <!--primary:'#295ea4',
 success:'#ffcb4f',-->
-<div align="center">
-<img src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" alt="profile-image" title="profile-image" style="width:30vw;height:auto;border-radius: 50%;">
-</div>
-<hr>
 
+<hr>
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://avatars.githubusercontent.com/u/47899653?s=460&u=4d045aeb2a755a4e55078c873efe12848d93a220&v=4" style="width:20vw;height:auto;border-radius: 50%;"/>
 </a>
