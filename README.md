@@ -9,7 +9,7 @@
 
 <h2>Pinned Repositories</h2>
 
-<div style="display: flex;align-items: center;justify-content: center;">
+<div style="display: flex;align-items: left;justify-content: center;">
   <div>
   <a href="https://github.com/YaCpotato/Dash-dataset-view">
     <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view" />
@@ -22,7 +22,7 @@
 </div>
 </div>
 
-<div style="display: flex;align-items: center;justify-content: center;">
+<div style="display: flex;align-items: center;justify-content: left;">
   <div>
   <a href="https://github.com/YaCpotato/Athena--">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--" />
