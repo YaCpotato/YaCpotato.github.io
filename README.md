@@ -6,10 +6,10 @@
 
 <hr>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&count_private=true&show_icons=true" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&count_private=true&show_icons=true" width=50% />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact" width=50% />
 </a>
 ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=YaCpotato&show_icons=true)
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact)
