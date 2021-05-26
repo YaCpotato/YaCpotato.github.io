@@ -9,13 +9,20 @@
 
 <h2>Pinned Repositories</h2>
 
-<a href="https://github.com/YaCpotato/Dash-dataset-view">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view" />
-</a>
-#### Description
-Preview CSV Dataset with interactive visualization with Dash.<br>
-<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /><br>
-<hr>
+<div style="display: flex;align-items: center;justify-content: center;">
+  <div>
+  <a href="https://github.com/YaCpotato/Dash-dataset-view">
+    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view" />
+  </a>
+</div>
+<div>
+  <p>Preview CSV Dataset with interactive visualization with Dash.<br>
+    <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /><br>
+  </p>
+</div>
+</div>
+
+
 
 <a href="https://github.com/YaCpotato/Athena--">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--" />
