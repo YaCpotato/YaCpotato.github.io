@@ -4,7 +4,6 @@
   
 </div>
 
-<hr>
 <div>
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&count_private=true&show_icons=true" style="width:15vw;" />
@@ -13,11 +12,9 @@
     <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact" style="width:15vw;" />
   </a>
 </div>
-<hr>
 
 <h2>Pinned Repositories</h2>
 
-![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view)
 <a href="https://github.com/YaCpotato/Dash-dataset-view">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view" />
 </a>
@@ -26,7 +23,6 @@ Preview CSV Dataset with interactive visualization with Dash.<br>
 <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /><br>
 <hr>
 
-![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--)
 <a href="https://github.com/YaCpotato/Athena--">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--" />
 </a>
@@ -36,7 +32,6 @@ My Athena query snippet.<br>
 <img align="left" alt="Presto" width="26px" src="https://user-images.githubusercontent.com/47899653/112152062-3a9d5480-8c25-11eb-8b62-cceecd56edc1.png" /><br>
 <hr>
 
-![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery)
 <a href="https://github.com/YaCpotato/BigQuery">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery" />
 </a>
@@ -44,7 +39,6 @@ My Athena query snippet.<br>
 My BigQuery query snippet.<br>
 <hr>
 
-![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart)
 <a href="https://github.com/YaCpotato/GanttChart">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart" />
 </a>
