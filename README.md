@@ -28,7 +28,7 @@ My Athena query snippet.<br>
 <hr>
 
 <a href="https://github.com/YaCpotato/BigQuery">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery" /><br>
 </a>
 #### Description
 My BigQuery query snippet.<br>
