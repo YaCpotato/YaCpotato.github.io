@@ -6,10 +6,10 @@
 
 <div style="display: block;">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&count_private=true&show_icons=true" style="width:35vw;" />
+    <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&count_private=true&show_icons=true" style="width:25vw;" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact" style="width:30vw;" />
+    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact" style="width:25vw;" />
   </a>
 </div>
 
