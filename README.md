@@ -32,8 +32,8 @@ My Athena query snippet.<br>
 </a>
 #### Description
 My BigQuery query snippet.<br>
+<img align="left" alt="bigquery" width="26px" src="https://symbols.getvecta.com/stencil_75/69_bigquery-icon.eb9185e8d2.svg" />
 <hr>
-
 <a href="https://github.com/YaCpotato/GanttChart">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart" />
 </a>
