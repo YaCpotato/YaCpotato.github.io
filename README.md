@@ -5,12 +5,14 @@
 </div>
 
 <hr>
-<a href="https://github.com/anuraghazra/github-readme-stats" width=50% >
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&count_private=true&show_icons=true" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats" width=50%>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact" />
-</a>
+<div>
+  <a href="https://github.com/anuraghazra/github-readme-stats" width=50% >
+    <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&count_private=true&show_icons=true" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats" width=50%>
+    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact" />
+  </a>
+</div>
 <hr>
 
 ## Pinned Repositories
