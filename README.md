@@ -5,6 +5,12 @@
 </div>
 
 <hr>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&count_private=true&show_icons=true" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact" />
+</a>
 ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=YaCpotato&show_icons=true)
 ![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato&layout=compact)
 
@@ -13,12 +19,18 @@
 ## Pinned Repositories
 
 ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view)
+<a href="https://github.com/YaCpotato/Dash-dataset-view">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view" />
+</a>
 #### Description
 Preview CSV Dataset with interactive visualization with Dash.<br>
 <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /><br>
 <hr>
 
 ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--)
+<a href="https://github.com/YaCpotato/Athena--">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--" />
+</a>
 #### Description
 My Athena query snippet.<br>
 <img align="left" alt="AWS" width="26px" src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png" />
@@ -26,11 +38,17 @@ My Athena query snippet.<br>
 <hr>
 
 ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery)
+<a href="https://github.com/YaCpotato/BigQuery">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery" />
+</a>
 #### Description
 My BigQuery query snippet.<br>
 <hr>
 
 ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart)
+<a href="https://github.com/YaCpotato/GanttChart">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart" />
+</a>
 #### Description
 Try to make GanntChartApp with full scratch.<br>
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
