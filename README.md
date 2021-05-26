@@ -15,7 +15,7 @@
 </div>
 <hr>
 
-## Pinned Repositories
+<h2>Pinned Repositories</h2>
 
 ![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view)
 <a href="https://github.com/YaCpotato/Dash-dataset-view">
