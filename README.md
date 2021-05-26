@@ -9,66 +9,62 @@
 
 <h2>Pinned Repositories</h2>
 
-<div style="display: flex;align-items: left;justify-content: center;">
+<div style="display: flex;align-items: center;justify-content: left;">
   <div>
-  <a href="https://github.com/YaCpotato/Dash-dataset-view">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view" />
-  </a>
-</div>
-<div>
-  <p>Preview CSV Dataset with interactive visualization with Dash.<br>
-    <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /><br>
-  </p>
-</div>
-</div>
+    <a href="https://github.com/YaCpotato/Dash-dataset-view">
+      <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Dash-dataset-view" />
+    </a>
+  </div>
+  <div>
+    <p>Preview CSV Dataset with interactive visualization with Dash.<br>
+      <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /><br>
+    </p>
+  </div>
+</div><hr>
 
 <div style="display: flex;align-items: center;justify-content: left;">
   <div>
-  <a href="https://github.com/YaCpotato/Athena--">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--" />
-</a>
-</div>
-<div>
-  <p>
-My Athena query snippet.<br>
-<img align="left" alt="AWS" width="26px" src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png" />
-<img align="left" alt="Presto" width="26px" src="https://user-images.githubusercontent.com/47899653/112152062-3a9d5480-8c25-11eb-8b62-cceecd56edc1.png" /><br>
-</p>
-</div>
-</div>
-
-<div style="display: flex;align-items: center;justify-content: center;">
+    <a href="https://github.com/YaCpotato/Athena--">
+      <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Athena--" />
+    </a>
+  </div>
   <div>
-  <a href="https://github.com/YaCpotato/BigQuery">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery" /><br>
-  </a>
-</div>
-<div>
-  <p>
-    My BigQuery query snippet.<br>
-<img align="left" alt="bigquery" width="26px" src="https://symbols.getvecta.com/stencil_75/69_bigquery-icon.eb9185e8d2.svg" />
-</p>
-</div>
-</div>
+    <p>My Athena query snippet.<br>
+      <img align="left" alt="AWS" width="26px" src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png" />
+      <img align="left" alt="Presto" width="26px" src="https://user-images.githubusercontent.com/47899653/112152062-3a9d5480-8c25-11eb-8b62-cceecd56edc1.png" /><br>
+    </p>
+  </div>
+</div><hr>
 
-
-
-<div style="display: flex;align-items: center;justify-content: center;">
+<div style="display: flex;align-items: center;justify-content: left;">
   <div>
-  <a href="https://github.com/YaCpotato/GanttChart">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart" />
-</a>
-</div>
-<div>
-  <p>
-      Try to make GanntChartApp with full scratch.<br>
-    <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /><br>
-   </p>
-</div>
-</div>
-<hr>
+    <a href="https://github.com/YaCpotato/BigQuery">
+      <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=BigQuery" /><br>
+    </a>
+  </div>
+  <div>
+    <p>My BigQuery query snippet.<br>
+      <img align="left" alt="bigquery" width="26px" src="https://symbols.getvecta.com/stencil_75/69_bigquery-icon.eb9185e8d2.svg" />
+    </p>
+  </div>
+</div><hr>
+
+
+
+<div style="display: flex;align-items: center;justify-content: left;">
+  <div>
+    <a href="https://github.com/YaCpotato/GanttChart">
+      <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart" />
+    </a>
+  </div>
+  <div>
+    <p>Try to make GanntChartApp with full scratch.<br>
+      <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+      <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+      <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /><br>
+    </p>
+  </div>
+</div><hr>
 
 ### Other Languages and Tools:
 
