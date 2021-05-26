@@ -53,15 +53,17 @@
 
 <div style="display: flex;align-items: center;justify-content: left;">
   <div>
-    <a href="https://github.com/YaCpotato/GanttChart">
-      <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=GanttChart" />
+    <a href="https://github.com/YaCpotato/Frappe-gantt-chart-onFlask">
+      <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=YaCpotato&repo=Frappe-gantt-chart-onFlask" />
     </a>
   </div>
   <div>
-    <p>Try to make GanntChartApp with full scratch.<br>
+    <p>This app used for manage tasks when I was student.<br>
       <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
       <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-      <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /><br>
+      <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+      <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /><br>
+
     </p>
   </div>
 </div><hr>
