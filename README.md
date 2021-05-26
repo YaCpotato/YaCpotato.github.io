@@ -5,7 +5,6 @@
 </div>
 
 ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=YaCpotato)
-![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato)
 
 
 <h2>Pinned Repositories</h2>
@@ -81,6 +80,9 @@ Try to make GanntChartApp with full scratch.<br>
 
 <br />
 <br />
+
+![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=YaCpotato)
+
 
 ---
 ### Analysis Spaces
