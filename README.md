@@ -4,7 +4,7 @@
   
 </div>
 
-<div>
+<div style="display: block;">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=YaCpotato&count_private=true&show_icons=true" style="width:15vw;" />
   </a>
