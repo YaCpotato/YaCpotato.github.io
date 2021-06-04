@@ -8,8 +8,17 @@
     </head>
     <body>
         <div class="container">
-            <div class="clock-area"></div>
-            <div class="chart-area"></div>
+            <div class="time-area">
+                <div class="mini-rt-area">
+                    <span id="RealtimeClockArea2"></span>
+                </div>
+                <div class="clock-area">
+                    <span id="ETClockArea2"></span>
+                </div>
+            </div>
+            <div class="chart-area">
+
+            </div>
         </div>
     </body>
     <script>
@@ -25,7 +34,7 @@
             var nowHour = set2fig( nowTime.getHours() );
             var nowMin  = set2fig( nowTime.getMinutes() );
             var nowSec  = set2fig( nowTime.getSeconds() );
-            var msg = "現在時刻は、" + nowHour + ":" + nowMin + ":" + nowSec + " です。";
+            var msg = nowHour + ":" + nowMin + ":" + nowSec;
             document.getElementById("RealtimeClockArea2").innerHTML = msg;
         }
         function ETClock() {
@@ -52,13 +61,34 @@
             }
             return result
         }
+        function showETClock() {
+                var et_time = ETClock()
+                var hour = set2fig(et_time.hour)
+                var minute = set2fig(et_time.minute)
+                var msg = hour + ":" + minute;
+                document.getElementById("ETClockArea2").innerHTML = msg;
+        }
         
         function update() {
-
+            showETClock()
+            showClock()
         }
         setInterval("update()",1000)
     </script>
     <style>
-
+        .container {
+            width:100vw;
+            height:100vh;
+        }
+        .time-area {
+            width:40%;
+        }
+        .mini-rt-area {
+            float:right;
+        }
+        .clock-area {
+            font-size:28px;
+            font-weight:bold;
+        }
     </style>
 </html>
