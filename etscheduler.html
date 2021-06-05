@@ -30,9 +30,7 @@
             </div>
             <div class="gantt-area box">
                 <table class="listchart-table" rules="all">
-                    <thead>
-                        <th id = "hourArea" colspan="24"></th>
-                    </thead>
+                    <tr id = "hourArea" colspan="24"></tr>
                     <tr>
                         <td id="one-ok">●</td>
                         <td id="two-ok">●</td>
@@ -132,7 +130,7 @@
                 contentBlock.appendChild(new_element)
 
                 if(i == 23 && reflesh == true) {
-                    for(var j = 0;j < start - 1;j++) {
+                    for(var j = 0;j <= start - 1;j++) {
                         var new_element = document.createElement('td')
                         new_element.classList.add('hour-seg')
                         new_element.textContent = `-${j}-`
@@ -178,9 +176,10 @@
         }
         .listchart-table {
             table-layout: fixed;
+            width: 80%;
         }
-        .listchart-table th {
-            text-align: center;
+        .listchart-table td {
+            background-color: lightgray;
         }
         #hourArea {
             padding:0px;
