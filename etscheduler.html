@@ -8,16 +8,62 @@
     </head>
     <body>
         <div class="container">
-            <div class="time-area">
+            <div class="time-area box">
                 <div class="mini-rt-area">
                     <span id="RealtimeClockArea2"></span>
                 </div>
                 <div class="clock-area">
                     <span id="ETClockArea2"></span>
                 </div>
+                <div class="">
+                    <div class="field has-addons">
+                        <div class="control">
+                          <input class="input" type="text" placeholder="アイテム名を検索する">
+                        </div>
+                        <div class="control">
+                          <a class="button is-info">
+                            追加
+                          </a>
+                        </div>
+                      </div>
+                </div>
             </div>
-            <div class="chart-area">
-
+            <div class="hour-table box"></div>
+            <div class="gantt-area box">
+                <table class="table">
+                    <tr>
+                        <td>sample</td>
+                        <td>sample</td>
+                    </tr>
+                    <tr>
+                        <td id="one-ok"></td>
+                        <td id="two-ok"></td>
+                        <td id="three-ok"></td>
+                        <td id="four-ok"></td>
+                        <td id="five-ok"></td>
+                        <td id="six-ok"></td>
+                        <td id="seven-ok"></td>
+                        <td id="eight-ok"></td>
+                        <td id="nine-ok"></td>
+                        <td id="ten-ok"></td>
+                        <td id="ele-ok"></td>
+                        <td id="twe-ok"></td>
+                        <td id="thi-ok"></td>
+                        <td id="fou-ok"></td>
+                        <td id="fif-ok"></td>
+                        <td id="sixt-ok"></td>
+                        <td id="sevent-ok"></td>
+                        <td id="eighte-ok"></td>
+                        <td id="ninete-ok"></td>
+                        <td id="twent-ok"></td>
+                        <td id="tone-ok"></td>
+                        <td id="ttwo-ok"></td>
+                        <td id="tthr-ok"></td>
+                        <td id="twef-ok"></td>
+                    </tr>
+                </table>
+                <div class="chart-area box">
+                </div>
             </div>
         </div>
     </body>
@@ -89,6 +135,18 @@
         .clock-area {
             font-size:28px;
             font-weight:bold;
+        }
+        .gantt-area {
+            display:flex;
+        }
+        .list-area {
+            width:40%;
+        }
+        .chart-area {
+            width:60%;
+        }
+        .hour-table {
+            width:60%;
         }
     </style>
 </html>
