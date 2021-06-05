@@ -28,42 +28,38 @@
                       </div>
                 </div>
             </div>
-            <div class="hour-table box"></div>
             <div class="gantt-area box">
-                <table class="table">
+                <table class="listchart-table" rules="all">
+                    <thead>
+                        <th id = "hourArea" colspan="24"></th>
+                    </thead>
                     <tr>
-                        <td>sample</td>
-                        <td>sample</td>
-                    </tr>
-                    <tr>
-                        <td id="one-ok"></td>
-                        <td id="two-ok"></td>
-                        <td id="three-ok"></td>
-                        <td id="four-ok"></td>
-                        <td id="five-ok"></td>
-                        <td id="six-ok"></td>
-                        <td id="seven-ok"></td>
-                        <td id="eight-ok"></td>
-                        <td id="nine-ok"></td>
-                        <td id="ten-ok"></td>
-                        <td id="ele-ok"></td>
-                        <td id="twe-ok"></td>
-                        <td id="thi-ok"></td>
-                        <td id="fou-ok"></td>
-                        <td id="fif-ok"></td>
-                        <td id="sixt-ok"></td>
-                        <td id="sevent-ok"></td>
-                        <td id="eighte-ok"></td>
-                        <td id="ninete-ok"></td>
-                        <td id="twent-ok"></td>
-                        <td id="tone-ok"></td>
-                        <td id="ttwo-ok"></td>
-                        <td id="tthr-ok"></td>
-                        <td id="twef-ok"></td>
+                        <td id="one-ok">●</td>
+                        <td id="two-ok">●</td>
+                        <td id="three-ok">●</td>
+                        <td id="four-ok">●</td>
+                        <td id="five-ok">●</td>
+                        <td id="six-ok">●</td>
+                        <td id="seven-ok">●</td>
+                        <td id="eight-ok">●</td>
+                        <td id="nine-ok">●</td>
+                        <td id="ten-ok">●</td>
+                        <td id="ele-ok">●</td>
+                        <td id="twe-ok">●</td>
+                        <td id="thi-ok">●</td>
+                        <td id="fou-ok">●</td>
+                        <td id="fif-ok">●</td>
+                        <td id="sixt-ok">●</td>
+                        <td id="sevent-ok">●</td>
+                        <td id="eighte-ok">●</td>
+                        <td id="ninete-ok">●</td>
+                        <td id="twent-ok">●</td>
+                        <td id="tone-ok">●</td>
+                        <td id="ttwo-ok">●</td>
+                        <td id="tthr-ok">●</td>
+                        <td id="twef-ok">●</td>
                     </tr>
                 </table>
-                <div class="chart-area box">
-                </div>
             </div>
         </div>
     </body>
@@ -114,14 +110,49 @@
                 var msg = hour + ":" + minute;
                 document.getElementById("ETClockArea2").innerHTML = msg;
         }
+
+        function calUpdate() {
+            result = []
+            now = ETClock()
+            start = now.hour
+
+            var contentBlock = document.getElementById('hourArea')
+
+            reflesh = false
+            refleshTime = start
+            
+            if(start != 0) {
+                reflesh = true
+            }
+
+            for(var i = start;i <= 23;i++) {
+                var new_element = document.createElement('td')
+                new_element.classList.add('hour-seg')
+                new_element.textContent = `-${i}-`
+                contentBlock.appendChild(new_element)
+
+                if(i == 23 && reflesh == true) {
+                    for(var j = 0;j < start - 1;j++) {
+                        var new_element = document.createElement('td')
+                        new_element.classList.add('hour-seg')
+                        new_element.textContent = `-${j}-`
+                        contentBlock.appendChild(new_element)
+                    }
+                }
+            }
+        }
         
         function update() {
             showETClock()
             showClock()
         }
         setInterval("update()",1000)
+        calUpdate()
     </script>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         .container {
             width:100vw;
             height:100vh;
@@ -145,8 +176,18 @@
         .chart-area {
             width:60%;
         }
-        .hour-table {
-            width:60%;
+        .listchart-table {
+            table-layout: fixed;
+        }
+        .listchart-table th {
+            text-align: center;
+        }
+        #hourArea {
+            padding:0px;
+        }
+        td.hour-seg {
+            padding-right:0.7rem;
+            padding-left:0.7rem;
         }
     </style>
 </html>
