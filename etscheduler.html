@@ -29,6 +29,18 @@
                 </div>
             </div>
             <div class="gantt-area box">
+                <table class="list-table" rules="all">
+                    <thead>
+                        <th>name</th>
+                        <th>icon</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>wawawa</td>
+                            <td>wawawa</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <table class="listchart-table" rules="all">
                     <tr id = "hourArea" colspan="24"></tr>
                     <tr>
@@ -126,14 +138,14 @@
             for(var i = start;i <= 23;i++) {
                 var new_element = document.createElement('td')
                 new_element.classList.add('hour-seg')
-                new_element.textContent = `-${i}-`
+                new_element.textContent = `${i}`
                 contentBlock.appendChild(new_element)
 
                 if(i == 23 && reflesh == true) {
                     for(var j = 0;j <= start - 1;j++) {
                         var new_element = document.createElement('td')
                         new_element.classList.add('hour-seg')
-                        new_element.textContent = `-${j}-`
+                        new_element.textContent = `${j}`
                         contentBlock.appendChild(new_element)
                     }
                 }
@@ -173,6 +185,10 @@
         }
         .chart-area {
             width:60%;
+        }
+        .list-table {
+            table-layout: fixed;
+            width: 20%;
         }
         .listchart-table {
             table-layout: fixed;
