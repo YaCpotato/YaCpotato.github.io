@@ -74,6 +74,10 @@
         </div>
     </body>
     <script>
+        const items = '{"item1": {"name":"aaa","et-begin":2,"time":2},"item2": {"name":"aaa","et-begin":2,"time":2},"item3": {"name":"aaa","et-begin":2,"time":2}}'
+        const itemsJson = JSON.parse(items);
+
+
         function set2fig(num) {
             // 桁数が1桁だったら先頭に0を加えて2桁に調整する
             var ret;
