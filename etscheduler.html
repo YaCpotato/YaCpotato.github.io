@@ -5,9 +5,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/vue-simple-suggest"></script>
+        <link rel="stylesheet" href="https://unpkg.com/vue-simple-suggest/dist/styles.css">
+
     </head>
     <body>
-        <div class="container">
+        <div id="app" class="container">
             <div class="time-area box">
                 <div class="mini-rt-area">
                     <span id="RealtimeClockArea2"></span>
@@ -18,12 +23,16 @@
                 <div class="">
                     <div class="field has-addons">
                         <div class="control">
-                          <input class="input" type="text" placeholder="アイテム名を検索する">
+                          <vue-simple-suggest
+                            v-model="selected"
+                            :list="simpleSuggestionList"
+                            :filter-by-query="true">
+                            </vue-simple-suggest>
                         </div>
                         <div class="control">
-                          <a class="button is-info">
+                          <button class="button is-info" @click="addItem()">
                             追加
-                          </a>
+                          </button>
                         </div>
                       </div>
                 </div>
@@ -76,6 +85,24 @@
     <script>
         const items = '{"item1": {"name":"aaa","et-begin":2,"time":2},"item2": {"name":"aaa","et-begin":2,"time":2},"item3": {"name":"aaa","et-begin":2,"time":2}}'
         const itemsJson = JSON.parse(items);
+
+        var app = new Vue({
+            el:"#app",
+            data:{
+                selected:'',
+                simpleSuggestionList:[
+                    "item1",
+                    "item2",
+                    "item3"
+                ]
+            },
+            methods:{
+                addItem(){
+                    result = itemsJson[this.selected]
+                    console.log(result)
+                }
+            }
+        })
 
 
         function set2fig(num) {
