@@ -43,38 +43,38 @@
                         <th>name</th>
                     </thead>
                     <tbody>
-                        <tr v-for="item in myItem" :key="item">
+                        <tr v-for="(item,index) in myItem" :key="index">
                             <td>{{ item.name }}</td>
                         </tr>
                     </tbody>
                 </table>
                 <table class="listchart-table" rules="all">
                     <tr id = "hourArea" colspan="24"></tr>
-                    <tr v-for="item in myItem" :key="item">
-                        <td id="n1">●</td>
-                        <td id="n2">●</td>
-                        <td id="n3">●</td>
-                        <td id="n4">●</td>
-                        <td id="n5">●</td>
-                        <td id="n6">●</td>
-                        <td id="n7">●</td>
-                        <td id="n8">●</td>
-                        <td id="n9">●</td>
-                        <td id="n10">●</td>
-                        <td id="n11">●</td>
-                        <td id="n12">●</td>
-                        <td id="n13">●</td>
-                        <td id="n14">●</td>
-                        <td id="n15">●</td>
-                        <td id="n16">●</td>
-                        <td id="n17">●</td>
-                        <td id="n18">●</td>
-                        <td id="n19">●</td>
-                        <td id="n20">●</td>
-                        <td id="n21">●</td>
-                        <td id="n22">●</td>
-                        <td id="n23">●</td>
-                        <td id="n24">●</td>
+                    <tr v-for="(item, index) in myItem" :key="index">
+                        <td id="n1"></td>
+                        <td id="n2"></td>
+                        <td id="n3"></td>
+                        <td id="n4"></td>
+                        <td id="n5"></td>
+                        <td id="n6"></td>
+                        <td id="n7"></td>
+                        <td id="n8"></td>
+                        <td id="n9"></td>
+                        <td id="n10"></td>
+                        <td id="n11"></td>
+                        <td id="n12"></td>
+                        <td id="n13"></td>
+                        <td id="n14"></td>
+                        <td id="n15"></td>
+                        <td id="n16"></td>
+                        <td id="n17"></td>
+                        <td id="n18"></td>
+                        <td id="n19"></td>
+                        <td id="n20"></td>
+                        <td id="n21"></td>
+                        <td id="n22"></td>
+                        <td id="n23"></td>
+                        <td id="n24"></td>
                     </tr>
                 </table>
             </div>
@@ -98,10 +98,15 @@
             methods:{
                 addItem(){
                     result = itemsJson[this.selected]
+
+                    for(var i = parseInt(result["et-begin"]);i<parseInt(result["et-begin"]+parseInt(result.time));i++) {
+                        document.getElementById(`n${i}`).innerHTML = "★";
+                    }
                     this.myItem.push({
                         "name":result.name,
                         "et-begin":result["et-begin"],
-                        "time":result.time
+                        "during":result.time,
+                        "time":tmpTime
                     })
                 }
             }
