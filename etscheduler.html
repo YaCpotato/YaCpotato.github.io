@@ -41,42 +41,40 @@
                 <table class="list-table" rules="all">
                     <thead>
                         <th>name</th>
-                        <th>icon</th>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>wawawa</td>
-                            <td>wawawa</td>
+                        <tr v-for="item in myItem" :key="item">
+                            <td>{{ item.name }}</td>
                         </tr>
                     </tbody>
                 </table>
                 <table class="listchart-table" rules="all">
                     <tr id = "hourArea" colspan="24"></tr>
-                    <tr>
-                        <td id="one-ok">●</td>
-                        <td id="two-ok">●</td>
-                        <td id="three-ok">●</td>
-                        <td id="four-ok">●</td>
-                        <td id="five-ok">●</td>
-                        <td id="six-ok">●</td>
-                        <td id="seven-ok">●</td>
-                        <td id="eight-ok">●</td>
-                        <td id="nine-ok">●</td>
-                        <td id="ten-ok">●</td>
-                        <td id="ele-ok">●</td>
-                        <td id="twe-ok">●</td>
-                        <td id="thi-ok">●</td>
-                        <td id="fou-ok">●</td>
-                        <td id="fif-ok">●</td>
-                        <td id="sixt-ok">●</td>
-                        <td id="sevent-ok">●</td>
-                        <td id="eighte-ok">●</td>
-                        <td id="ninete-ok">●</td>
-                        <td id="twent-ok">●</td>
-                        <td id="tone-ok">●</td>
-                        <td id="ttwo-ok">●</td>
-                        <td id="tthr-ok">●</td>
-                        <td id="twef-ok">●</td>
+                    <tr v-for="item in myItem" :key="item">
+                        <td id="n1">●</td>
+                        <td id="n2">●</td>
+                        <td id="n3">●</td>
+                        <td id="n4">●</td>
+                        <td id="n5">●</td>
+                        <td id="n6">●</td>
+                        <td id="n7">●</td>
+                        <td id="n8">●</td>
+                        <td id="n9">●</td>
+                        <td id="n10">●</td>
+                        <td id="n11">●</td>
+                        <td id="n12">●</td>
+                        <td id="n13">●</td>
+                        <td id="n14">●</td>
+                        <td id="n15">●</td>
+                        <td id="n16">●</td>
+                        <td id="n17">●</td>
+                        <td id="n18">●</td>
+                        <td id="n19">●</td>
+                        <td id="n20">●</td>
+                        <td id="n21">●</td>
+                        <td id="n22">●</td>
+                        <td id="n23">●</td>
+                        <td id="n24">●</td>
                     </tr>
                 </table>
             </div>
@@ -94,12 +92,17 @@
                     "item1",
                     "item2",
                     "item3"
-                ]
+                ],
+                myItem:[]
             },
             methods:{
                 addItem(){
                     result = itemsJson[this.selected]
-                    console.log(result)
+                    this.myItem.push({
+                        "name":result.name,
+                        "et-begin":result["et-begin"],
+                        "time":result.time
+                    })
                 }
             }
         })
