@@ -15,10 +15,10 @@
         <div id="app" class="container">
             <div class="time-area box">
                 <div class="mini-rt-area">
-                    <span id="RealtimeClockArea2"></span>
+                    <span id="RealtimeClockArea"></span>
                 </div>
                 <div class="clock-area">
-                    <span id="ETClockArea2"></span>
+                    <span id="ETClockArea"></span>
                 </div>
                 <div class="">
                     <div class="field has-addons">
@@ -113,12 +113,13 @@
             return ret;
         }
         function showClock() {
+            // 現在時刻を#RealtimeClockArea表示する
             var nowTime = new Date();
             var nowHour = set2fig( nowTime.getHours() );
             var nowMin  = set2fig( nowTime.getMinutes() );
             var nowSec  = set2fig( nowTime.getSeconds() );
             var msg = nowHour + ":" + nowMin + ":" + nowSec;
-            document.getElementById("RealtimeClockArea2").innerHTML = msg;
+            document.getElementById("RealtimeClockArea").innerHTML = msg;
         }
         function ETClock() {
             var date = new Date();
@@ -149,7 +150,7 @@
                 var hour = set2fig(et_time.hour)
                 var minute = set2fig(et_time.minute)
                 var msg = hour + ":" + minute;
-                document.getElementById("ETClockArea2").innerHTML = msg;
+                document.getElementById("ETClockArea").innerHTML = msg;
         }
 
         function calUpdate() {
