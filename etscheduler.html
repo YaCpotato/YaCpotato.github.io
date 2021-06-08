@@ -52,39 +52,12 @@
                     <tbody>
                         <tr id = "hourArea" colspan="24"></tr>
                     </tbody>
-                    
-                    <tr v-for="(item, index) in myItem" :key="index">
-                        <td id="n1"></td>
-                        <td id="n2"></td>
-                        <td id="n3"></td>
-                        <td id="n4"></td>
-                        <td id="n5"></td>
-                        <td id="n6"></td>
-                        <td id="n7"></td>
-                        <td id="n8"></td>
-                        <td id="n9"></td>
-                        <td id="n10"></td>
-                        <td id="n11"></td>
-                        <td id="n12"></td>
-                        <td id="n13"></td>
-                        <td id="n14"></td>
-                        <td id="n15"></td>
-                        <td id="n16"></td>
-                        <td id="n17"></td>
-                        <td id="n18"></td>
-                        <td id="n19"></td>
-                        <td id="n20"></td>
-                        <td id="n21"></td>
-                        <td id="n22"></td>
-                        <td id="n23"></td>
-                        <td id="n24"></td>
-                    </tr>
                 </table>
             </div>
         </div>
     </body>
     <script>
-        const items = '{"item1": {"name":"aaa","et-begin":2,"time":2},"item2": {"name":"aaa","et-begin":2,"time":2},"item3": {"name":"aaa","et-begin":2,"time":2}}'
+        const items = '{"item1": {"name":"aaa","et-begin":2,"time":2},"item2": {"name":"aaa","et-begin":5,"time":2},"item3": {"name":"aaa","et-begin":14,"time":2}}'
         const itemsJson = JSON.parse(items);
 
         var app = new Vue({
@@ -109,22 +82,23 @@
                     for (var i = nowHour; i < 24; i++) {
                         var cellElem = trElem.insertCell(0)
 
-                        if (i + nowHour == result["et-begin"] || i + nowHour == result["et-begin"] + result["time"]) {
-                            cellElem.appendChild(document.createTextNode('★'))
+                        if (i >= result["et-begin"] && i < result["et-begin"] + result["time"]) {
+                            cellElem.appendChild(document.createTextNode('i'))
                         }
                         if (i == 23) {
-                            for (var j = 0; j < nowHour - 1; i++) {
+                            for (var j = 0; j < nowHour; j++) {
                                 var cellElem = trElem.insertCell(0)
-                                if (j + nowHour == result["et-begin"] || j + nowHour == result["et-begin"] + result["time"]) {
-                                    cellElem.appendChild(document.createTextNode('★'))
+                                if (j >= result["et-begin"] && j < result["et-begin"] + result["time"]) {
+                                    cellElem.appendChild(document.createTextNode('j'))
                                 }
                             }
                             break;
                         }
+                        console.log(i)
                     }
                     this.myItem.push({
                         "name":result.name,
-                        "et-begin":result["et-begin"]
+                        "et-begin":0
                     })
                 }
             }
