@@ -48,8 +48,11 @@
                         </tr>
                     </tbody>
                 </table>
-                <table class="listchart-table" rules="all">
-                    <tr id = "hourArea" colspan="24"></tr>
+                <table id="chartTable" class="listchart-table" rules="all">
+                    <tbody>
+                        <tr id = "hourArea" colspan="24"></tr>
+                    </tbody>
+                    
                     <tr v-for="(item, index) in myItem" :key="index">
                         <td id="n1"></td>
                         <td id="n2"></td>
@@ -97,16 +100,31 @@
             },
             methods:{
                 addItem(){
-                    result = itemsJson[this.selected]
+                    var tableElem = document.getElementById('chartTable')
+                    var trElem = tableElem.tBodies[0].insertRow(-1)
 
-                    for(var i = parseInt(result["et-begin"]);i<parseInt(result["et-begin"]+parseInt(result.time));i++) {
-                        document.getElementById(`n${i}`).innerHTML = "★";
+                    result = itemsJson[this.selected]
+                    var nowHour = ETClock().hour
+
+                    for (var i = nowHour; i < 24; i++) {
+                        var cellElem = trElem.insertCell(0)
+
+                        if (i + nowHour == result["et-begin"] || i + nowHour == result["et-begin"] + result["time"]) {
+                            cellElem.appendChild(document.createTextNode('★'))
+                        }
+                        if (i == 23) {
+                            for (var j = 0; j < nowHour - 1; i++) {
+                                var cellElem = trElem.insertCell(0)
+                                if (j + nowHour == result["et-begin"] || j + nowHour == result["et-begin"] + result["time"]) {
+                                    cellElem.appendChild(document.createTextNode('★'))
+                                }
+                            }
+                            break;
+                        }
                     }
                     this.myItem.push({
                         "name":result.name,
-                        "et-begin":result["et-begin"],
-                        "during":result.time,
-                        "time":tmpTime
+                        "et-begin":result["et-begin"]
                     })
                 }
             }
