@@ -57,7 +57,7 @@
         </div>
     </body>
     <script>
-        const items = '{"item1": {"name":"aaa","et-begin":2,"time":2},"item2": {"name":"aaa","et-begin":5,"time":2},"item3": {"name":"aaa","et-begin":14,"time":2}}'
+        const items = '{"item1": {"name":"aaa","etBegin":2,"time":2},"item2": {"name":"aaa","etBegin":5,"time":2},"item3": {"name":"aaa","etBegin":14,"time":2}}'
         const itemsJson = JSON.parse(items);
 
         var app = new Vue({
@@ -69,36 +69,46 @@
                     "item2",
                     "item3"
                 ],
+                itemInfoList:[
+                    "item1":{
+                        "id":
+                        "imageUrl":
+                        "etBegin":
+                    }
+                ],
                 myItem:[]
             },
             methods:{
                 addItem(){
+
+                    // table要素内のDOM動的追加はメソッドを使う
                     var tableElem = document.getElementById('chartTable')
-                    var trElem = tableElem.tBodies[0].insertRow(-1)
+                    // 末尾に追加
+                    var row = tableElem.insertRow(-1)
 
                     result = itemsJson[this.selected]
                     var nowHour = ETClock().hour
 
                     for (var i = nowHour; i < 24; i++) {
-                        var cellElem = trElem.insertCell(0)
+                        var cellElemToday = row.insertCell(-1)
 
-                        if (i >= result["et-begin"] && i < result["et-begin"] + result["time"]) {
-                            cellElem.appendChild(document.createTextNode('i'))
+                        if (i >= result["etBegin"] && i <= result["etBegin"] + result["time"]) {
+                            cellElemToday.innerHTML = 'i'
                         }
+
                         if (i == 23) {
                             for (var j = 0; j < nowHour; j++) {
-                                var cellElem = trElem.insertCell(0)
-                                if (j >= result["et-begin"] && j < result["et-begin"] + result["time"]) {
-                                    cellElem.appendChild(document.createTextNode('j'))
+                                var cellElemTomorrow = row.insertCell(-1)
+                                if (j >= result["etBegin"] && j <= result["etBegin"] + result["time"]) {
+                                    cellElemTomorrow.innerHTML = 'j'
                                 }
                             }
                             break;
                         }
-                        console.log(i)
                     }
                     this.myItem.push({
                         "name":result.name,
-                        "et-begin":0
+                        "etBegin":0
                     })
                 }
             }
