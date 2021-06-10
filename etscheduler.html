@@ -45,7 +45,7 @@
                     <tbody>
                         <tr v-for="(item,index) in myItem" :key="index">
                             <td>{{ item.name }}</td>
-                            <td><img :src="item.imageUrl" style="width:90%px;height:auto;"/></td>
+                            <td><img :src="item.imageUrl" style="width:30px;height:auto;"/></td>
                         </tr>
                     </tbody>
                 </table>
@@ -56,6 +56,7 @@
                 </table>
             </div>
         </div>
+        <div style="position:absolute;bottom:0;">(C) SQUARE ENIX CO., LTD. All Rights Reserved.</div>
     </body>
     <script>
         var app = new Vue({
@@ -117,7 +118,7 @@
                         }
                     }
                     this.myItem.push({
-                        "name":result.name,
+                        "name":this.selected,
                         "imageUrl":result.imageUrl
                     })
                 }
@@ -242,12 +243,16 @@
             table-layout: fixed;
             width: 20%;
         }
+        #listTable th,td {
+            height:45px;
+        }
         .listchart-table {
             table-layout: fixed;
             width: 80%;
         }
         .listchart-table td {
-            background-color: lightgray;
+            width:45px;
+            height:45px;
         }
         #hourArea {
             padding:0px;
