@@ -38,13 +38,14 @@
                 </div>
             </div>
             <div class="gantt-area box">
-                <table class="list-table" rules="all">
+                <table id="listTable" rules="all">
                     <thead>
                         <th>name</th>
                     </thead>
                     <tbody>
                         <tr v-for="(item,index) in myItem" :key="index">
                             <td>{{ item.name }}</td>
+                            <td><img :src="item.imageUrl" style="width:90%px;height:auto;"/></td>
                         </tr>
                     </tbody>
                 </table>
@@ -57,36 +58,45 @@
         </div>
     </body>
     <script>
-        const items = '{"item1": {"name":"aaa","etBegin":2,"time":2},"item2": {"name":"aaa","etBegin":5,"time":2},"item3": {"name":"aaa","etBegin":14,"time":2}}'
-        const itemsJson = JSON.parse(items);
-
         var app = new Vue({
             el:"#app",
             data:{
                 selected:'',
                 simpleSuggestionList:[
-                    "item1",
-                    "item2",
-                    "item3"
+                    "金鉱",
+                    "スプルース原木",
+                    "ヤンサ沃土"
                 ],
-                itemInfoList:[
-                    "item1":{
-                        "id":
-                        "imageUrl":
-                        "etBegin":
+                itemInfoList:{
+                    "金鉱":{
+                        "id":"dd538e4d915",
+                        "imageUrl":"https://app.eriones.com/img/icon/ls_nq/dd538e4d915.png",
+                        "etBegin":9,
+                        "time":2
+                    },
+                    "スプルース原木":{
+                        "id":"abd30227264",
+                        "imageUrl":"https://app.eriones.com/img/icon/ls_nq/abd30227264.png",
+                        "etBegin":9,
+                        "time":2
+                    },
+                    "ヤンサ沃土":{
+                        "id":"fc34ed6cfb5",
+                        "imageUrl":"https://app.eriones.com/img/icon/ls_nq/fc34ed6cfb5.png",
+                        "etBegin":20,
+                        "time":2
                     }
-                ],
+                },
                 myItem:[]
             },
             methods:{
                 addItem(){
-
                     // table要素内のDOM動的追加はメソッドを使う
                     var tableElem = document.getElementById('chartTable')
                     // 末尾に追加
                     var row = tableElem.insertRow(-1)
 
-                    result = itemsJson[this.selected]
+                    result = this.itemInfoList[this.selected]
                     var nowHour = ETClock().hour
 
                     for (var i = nowHour; i < 24; i++) {
@@ -108,7 +118,7 @@
                     }
                     this.myItem.push({
                         "name":result.name,
-                        "etBegin":0
+                        "imageUrl":result.imageUrl
                     })
                 }
             }
@@ -228,7 +238,7 @@
         .chart-area {
             width:60%;
         }
-        .list-table {
+        #listTable {
             table-layout: fixed;
             width: 20%;
         }
