@@ -68,17 +68,21 @@
             </div>
           </div>
           <div v-if="tasks.length > 0">
-            <table id="taskTable" rules="all">
-              <th>Name</th>
-              <th>Start</th>
-              <th>End</th>
-              <th>Progress</th>
-              <tr v-for="task in tasks">
+            <table class="table" rules="all">
+              <thead>
+                <th>Name</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Progress</th>
+              </thead>
+              <tbody>
+                <tr v-for="task in tasks">
                   <td>{{ task.name }}</td>
                   <td>{{ task.start }}</td>
                   <td>{{ task.end }}</td>
                   <td>{{ task.progress }}</td>
-              </tr>
+                </tr>
+              </tbody>
             </table>
             </div><br>
             <svg id="gantt"></svg>
@@ -90,7 +94,33 @@ var gantt;
 var app = new Vue({
     el:"#app",
     data:{
-      tasks : [],
+      nowIds:3,
+      tasks : [
+        {
+          id:0,
+          name:'sample task 1',
+          start:moment().format("YYYY-MM-DD"),
+          end:moment().add(3, 'd').format("YYYY-MM-DD"),
+          progress:100,
+          dependencies:null
+        },
+        {
+          id:1,
+          name:'sample task 1',
+          start:moment().add(5, 'd').format("YYYY-MM-DD"),
+          end:moment().add(8, 'd').format("YYYY-MM-DD"),
+          progress:50,
+          dependencies:null
+        },
+        {
+          id:0,
+          name:'sample task 1',
+          start:moment().add(11, 'd').format("YYYY-MM-DD"),
+          end:moment().add(13, 'd').format("YYYY-MM-DD"),
+          progress:10,
+          dependencies:null
+        }
+      ],
       id:null,
       name:'',
       start:'',
@@ -104,7 +134,7 @@ var app = new Vue({
     methods:{
       addTask:function(){
         this.tasks.push({
-          id: this.id,
+          id: this.nowIds,
           name: this.name,
           start: moment(this.start).format('YYYY-MM-DD'),
           end: moment(this.end).format('YYYY-MM-DD'),
@@ -116,6 +146,7 @@ var app = new Vue({
         }else if(!gantt){
           drawGantt()
         }
+        this.nowIds += 1
       },
     }
   })
@@ -143,6 +174,7 @@ var drawGantt = function() {
   )
  }
 };
+drawGantt()
 </script>
 <style>
 #taskTable {
