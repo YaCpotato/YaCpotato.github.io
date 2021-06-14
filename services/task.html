@@ -74,6 +74,7 @@
                 <th>Start</th>
                 <th>End</th>
                 <th>Progress</th>
+                <th></th>
               </thead>
               <tbody>
                 <tr v-for="task in tasks">
@@ -81,6 +82,12 @@
                   <td>{{ task.start }}</td>
                   <td>{{ task.end }}</td>
                   <td>{{ task.progress }}</td>
+                  <td>
+                    <button class="button" @click="deleteTask(task.id)">
+                      <span class="icon is-small">
+                        <i class="fas fa-trash-alt"></i>
+                      </span>
+                    </button>
                 </tr>
               </tbody>
             </table>
@@ -148,6 +155,12 @@ var app = new Vue({
         }
         this.nowIds += 1
       },
+      deleteTask:function(id){
+        this.tasks.splice(id,1)
+        if(gantt){
+          gantt.refresh(this.tasks)
+        }
+      }
     }
   })
 
