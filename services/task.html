@@ -85,7 +85,7 @@
                   <td>{{ task.end }}</td>
                   <td>{{ task.progress }}</td>
                   <td>
-                    <button class="button" @click="deleteTask(task.id)">
+                    <button class="button delete-button" @click="deleteTask(task.id)">
                       <span class="icon is-small">
                         <i class="fas fa-trash-alt"></i>
                       </span>
@@ -195,9 +195,28 @@ var drawGantt = function() {
 drawGantt()
 </script>
 <style>
-#taskTable {
-  border:1px solid black;
-  border-collapse: collapse;
+.table {
+  table-layout: fixed;
+  height: auto;
+  width:50vw;
 }
+
+.table thead {
+  height:50px;
+}
+
+.table td {
+  height:38px;
+}
+
+.grid-header {
+  height:50px;
+}
+
+.delete-button {
+  height:30px;
+  width:30px;
+}
+
 </style>
 </html>
