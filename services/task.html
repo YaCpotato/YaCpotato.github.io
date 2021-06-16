@@ -19,30 +19,30 @@
     </head>
     <body>
       <div id="app" class="container">
-        <div class="content">
-          <div class="field">
+
+
+        <div class="content form is-flex m-2 is-justify-content-center">
+          <div class="field m-2">
             <label class="label">タスク名</label>
-              <div class="control">
-                <input class="input" type="text" v-model="name">
-              </div>
+            <div class="control">
+              <input class="input" type="text" v-model="name">
+            </div>
           </div>
-          <div class="field">
+          <div class="field m-2">
             <label class="label">開始日</label>
               <div class="control">
                 <v-date-picker class="datepicker" :mode="'single'"
                   :formats="formats"
-                  v-model="start"
-                  >
-                  <template v-slot="{ inputValue, inputEvents }">
-                    <input
-                      :value="inputValue"
-                      v-on="inputEvents"
-                    />
-                  </template>
-                </v-date-picker>
-              </div>
+                  v-model="start">
+                <template v-slot="{ inputValue, inputEvents }">
+                  <input
+                    :value="inputValue"
+                    v-on="inputEvents" />
+                </template>
+              </v-date-picker>
+            </div>
           </div>
-          <div class="field">
+          <div class="field m-2">
             <label class="label">開始日</label>
               <div class="control">
                 <v-date-picker class="datepicker" :mode="'single'"
@@ -58,7 +58,7 @@
                 </v-date-picker>
               </div>
             </div>
-            <div class="field is-grouped">
+            <div class="field is-grouped m-2">
               <div class="control">
                 <button class="button is-link" @click="addTask()">Submit</button>
               </div>
@@ -66,7 +66,9 @@
                 <button class="button is-link is-light">Reset</button>
               </div>
             </div>
-          </div>
+        </div>
+
+        <div class="list-and-chart is-flex">
           <div v-if="tasks.length > 0">
             <table class="table" rules="all">
               <thead>
@@ -91,9 +93,12 @@
                 </tr>
               </tbody>
             </table>
-            </div><br>
+          </div>
+          <div class="gantt-area" style="overflow-x: scroll;">
             <svg id="gantt"></svg>
           </div>
+        </div>
+      </div>
     </body>
 <script>
 var gantt;
